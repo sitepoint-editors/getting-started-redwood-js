@@ -1,24 +1,29 @@
-# Redwood
+# An Introduction to Redwood.js
 
-> **WARNING:** RedwoodJS software has not reached a stable version 1.0 and should not be considered suitable for production use. In the "make it work; make it right; make it fast" paradigm, Redwood is in the later stages of the "make it work" phase.
+A simple CRUD app for managing a list of authors, their contact details and their favorite topics.
 
-## Getting Started
-- [Tutorial](https://redwoodjs.com/tutorial/welcome-to-redwood): getting started and complete overview guide.
-- [Docs](https://redwoodjs.com/docs/introduction): using the Redwood Router, handling assets and files, list of command-line tools, and more.
-- [Redwood Community](https://community.redwoodjs.com): get help, share tips and tricks, and collaborate on everything about RedwoodJS.
+This repo to accompanies our [Introduction to Redwood tutorial](https://www.sitepoint.com/learn-redwood/).
 
-### Setup
+## Requirements
 
-We use Yarn as our package manager. To get the dependencies installed, just do this in the root directory:
+* [Node.js](http://nodejs.org/)
+* [Yarn](https://yarnpkg.com/)
 
-```terminal
-yarn install
-```
+## Installation Steps
 
-### Fire it up
+1. Clone repo
+2. Run `yarn install`
+3. Run `yarn redwood dev`
+4. Visit <http://localhost:8910/>
 
-```terminal
-yarn redwood dev
-```
+## License
 
-Your browser should open automatically to `http://localhost:8910` to see the web app. Lambda functions run on `http://localhost:8911` and are also proxied to `http://localhost:8910/.redwood/functions/*`. 
+SitePoint's code archives and code examples are licensed under the MIT license.
+
+Copyright © 2020 SitePoint
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
